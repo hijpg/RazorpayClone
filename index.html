@@ -446,38 +446,72 @@
         
         <!-- main feature box -->
         <div class="w-full flex relative">
-            <img src="./images/x-flame-1.png" alt="" loading="lazy" class="absolute -top-[142px] -left-[140px] w-[200px]">
-            <img src="./images/x-flame-2.png" alt="" loading="lazy" class="absolute top-[150px] -right-[180px] w-[270px]">
+            <img src="./images/x-flame-1.png" alt="" loading="lazy" class="absolute -top-[105px] -left-[140px] w-[200px]">
+            <img src="./images/x-flame-2.png" alt="" loading="lazy" class="absolute top-[180px] -right-[180px] w-[270px]">
+            
             <!-- content box -->
-            <div>
-                <!-- left part -->
-                <div>
-                    <h3>Manage your company's finances and supercharge your business banking with
-                        <img src="./images/razorpayX.svg" alt="">
-                    </h3>
-                    <ul>
-                        <li>
-                            <i></i>
-                            <span>Open a fully digital current account</span></li>
-                        <li> <i></i>
-                            <span>Automate payables & compliment payments</span></li>
-                        <li> <i></i>
-                            <span>Simplify and track spends with Corporate cards</span></li>
-                        <li> <i></i>
-                            <span>View financial insights at a glance</span></li>
+            <div class=" flex border-blue-200 border-opacity-40 border h-[500px] rounded-md relative my-[40px] bg-[url(./images/feature-section-2BG.svg)] " >
+                <!-- left section -->
+                <div class=" flex flex-col justify-evenly items-start pl-[50px] w-full ">
+                    <h3 class=" font-poppins text-white leading-10 text-[25px] font-semibold w-[500px] " >Manage your company's finances and supercharge your business banking with
+                        <img src="./images/razorpayX.svg" loading="lazy" width="168px" height="32px" class="inline"></h3>
+    
+                    <ul class="space-y-2">
+                        <li class="flex font-mullish space-x-4  items-center" >
+                        <span class="material-symbols-outlined text-green-200">check</span>        <!--this is taken from google fonts icons-->
+                        <span class="font-poppins text-sm text-green-200 font-light" >Open a fully digital current account</span>
+                        </li>
+                        <li class="flex font-mullish space-x-4 items-center">
+                            <span class="material-symbols-outlined text-green-200">check</span>        <!--this is taken from google fonts icons-->
+                            <span class="font-poppins text-sm text-green-200 font-light" >Automate payables & compliment payments</span>
+                            
+                        </li>
+                        <li class="flex font-mullish space-x-4 items-center">
+                            <span class="material-symbols-outlined text-green-200">check</span>        <!--this is taken from google fonts icons-->
+                            <span class="font-poppins text-sm text-green-200 font-light" >Simplify and track spends with Corporate cards</span>
+                            
+                        </li>
+                        <li class="flex font-mullish space-x-4 items-center">
+                            <span class="material-symbols-outlined text-green-200">check</span>        <!--this is taken from google fonts icons-->
+                            <span class="font-poppins text-sm text-green-200 font-light" >View financial insights at a glance</span>
+                            
+                        </li>
+                        
                     </ul>
-                    <div>
-                        <button>Sign Up</button>
-                        <!-- hyperlink -->
-                        <div>
-                            <a href="">Know More</a>
-                            <i></i>
+    
+                    <div class="flex flex-row w-full items-center space-x-4 ">
+                        <button
+                        class="relative bg-lightBlue flex items-center 
+                        justify-start text-white py-[14px] px-[18px] md:pr-[90px] rounded-md
+                         font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200">
+                            Sign Up
+                            <div class="w-12 h-[60px] bg-greenLight absolute right-6 skew-x-[20deg] 
+                            flex justify-center items-center">
+                                <!--arrow-->
+                                <svg viewBox="0 0 24 24" focusable="false" class="w-[20px] h-[20px] -skew-x-[20deg] ">
+                                <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+                              </svg>
+                            </div>
+                        </button>
+                        <!--hyperlink wala-->
+                        <div class="flex flex-row items-center cursor-pointer group">
+                            <a class=" text-blue-700 flex items-center font-poppins text-base hover:text-lightBlue transition-all duration-200 " href="">Know More
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-3 ">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg>                              
+                            </a>
                         </div>
                     </div>
                 </div>
                 <!-- background image for content box -->
-                <img src="./images/buisness-banking.png" alt="">
+                <img src="./images/buisness-banking.png" class="w-[550px] pt-10 pb-5 pr-8" >
             </div>
+        </div>
+        
+        <div class="grid grid-col-3 gap-4 mt-10 w-full ">
+            <!-- box1 -->
+            <div></div>
+            <!-- box2 -->
+            <!-- box3 -->
         </div>
     </div>
 </section>
